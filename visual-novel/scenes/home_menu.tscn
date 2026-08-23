@@ -17,21 +17,22 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 1.0
 offset_top = -3.0
-offset_right = 4062.0
-offset_bottom = 1832.0
+offset_right = -1.0
+offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_6firx")
+expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="TextureRect" unique_id=1654971746]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_left = 87.0
-offset_top = -68.0
-offset_right = 178.0
-offset_bottom = 68.0
+offset_left = 896.0
+offset_top = -79.0
+offset_right = 1117.0
+offset_bottom = 65.0
 grow_vertical = 2
 
 [node name="Button" type="Button" parent="TextureRect/VBoxContainer" unique_id=368146324]
