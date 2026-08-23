@@ -1,10 +1,7 @@
 [gd_scene format=3 uid="uid://b4kq8fji0jnun"]
 
 [ext_resource type="Texture2D" uid="uid://du2ngekufrt40" path="res://images/bosque.jpg" id="1_rls7p"]
-[ext_resource type="Texture2D" uid="uid://etu37lfk6756" path="res://images/chars/chara_stand_16-1.png" id="2_jhfva"]
-[ext_resource type="Texture2D" uid="uid://bjt0uhbxnlsn1" path="res://images/chars/riyo.png" id="3_mqmr4"]
-[ext_resource type="Texture2D" uid="uid://81vhtbgo0yno" path="res://images/chars/rudo.png" id="4_nw32j"]
-[ext_resource type="Texture2D" uid="uid://cw7bqwmbgsuoc" path="res://images/chars/chara_list_24.png" id="5_mj6dm"]
+[ext_resource type="Texture2D" uid="uid://6v3afp7xikaj" path="res://images/chars/takeba.png" id="2_7oea8"]
 
 [node name="Node2D" type="Node2D" unique_id=1157897141]
 
@@ -15,29 +12,11 @@ color = Color(0.15686275, 0.15686275, 0.12156863, 1)
 
 [node name="fondo" type="TextureRect" parent="." unique_id=203024071]
 clip_contents = true
-offset_top = 59.0
 offset_right = 1151.0
-offset_bottom = 427.0
+offset_bottom = 648.0
 texture = ExtResource("1_rls7p")
 
-[node name="CharaStand161" type="Sprite2D" parent="fondo" unique_id=109651866]
-position = Vector2(559, 303)
-scale = Vector2(0.34517044, 0.33481652)
-texture = ExtResource("2_jhfva")
-
-[node name="Riyo" type="Sprite2D" parent="." unique_id=2059773306]
-visible = false
-position = Vector2(1003.5001, 409.99997)
-scale = Vector2(0.6928571, 0.6771428)
-texture = ExtResource("3_mqmr4")
-
-[node name="Rudo" type="Sprite2D" parent="." unique_id=1707395301]
-position = Vector2(142, 414.00003)
-scale = Vector2(0.68095237, 0.67142856)
-texture = ExtResource("4_nw32j")
-
-[node name="guita" type="Sprite2D" parent="." unique_id=276593859]
-visible = false
-position = Vector2(1013.00006, 425)
-scale = Vector2(0.65238094, 0.63285714)
-texture = ExtResource("5_mj6dm")
+[node name="Takeba" type="Sprite2D" parent="." unique_id=238163494]
+position = Vector2(153, 335)
+scale = Vector2(0.3039551, 0.3039551)
+texture = ExtResource("2_7oea8")
