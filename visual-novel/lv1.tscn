@@ -6,17 +6,21 @@
 [node name="Node2D" type="Node2D" unique_id=1157897141]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1153796621]
+visible = false
 offset_right = 1151.0
 offset_bottom = 647.0
 color = Color(0.15686275, 0.15686275, 0.12156863, 1)
 
 [node name="fondo" type="TextureRect" parent="." unique_id=203024071]
 clip_contents = true
-offset_right = 1151.0
-offset_bottom = 648.0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 1923.0
+offset_bottom = 1079.0
 texture = ExtResource("1_rls7p")
+expand_mode = 2
 
 [node name="Takeba" type="Sprite2D" parent="." unique_id=238163494]
-position = Vector2(153, 335)
-scale = Vector2(0.3039551, 0.3039551)
+position = Vector2(267.37497, 664.625)
+scale = Vector2(0.4039307, 0.4039307)
 texture = ExtResource("2_7oea8")
